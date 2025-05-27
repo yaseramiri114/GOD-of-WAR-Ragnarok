@@ -1,0 +1,110 @@
+/* *{
+    text-align: center;
+} */
+body{
+    font-family: Arival, sans-serif;
+    background-color: #1E1E1E;
+    color: white;
+    line-height: 1.6rem;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    margin: 0rem;
+    padding: 2rem;
+    z-index: 1000;
+    display: flex;
+}
+#logo{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav> ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav> ul> li{
+    margin-left: 0.6rem;
+}
+nav> ul> li> a{
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.3rem;
+}
+header{
+    text-align: center;
+}
+header> h1{
+    font-size: 3rem;
+}
+header> p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+div{
+    /* justify-content: center; */
+    /* text-align: center; */
+    border-radius: 8px;
+    padding: 8px;
+}
+h2{
+    margin-bottom: 1rem;
+    border-bottom: solid blue 3px;
+    width: fit-content;
+    text-align: center;
+}
+.top{
+    height: 300px;
+    max-width: 700px;
+    /* width: 200px; */
+    border: solid blue 3px;
+    margin-left: 23%;
+    margin-bottom: 3rem;
+}
+.middle{
+    height: 300px;
+    max-width: 700px;
+    border: solid blue 3px;
+    margin-left: 23%;
+    margin-bottom: 3rem;
+}
+div ul li{
+    text-align: none;
+}
+.bottom{
+    height: 300px;
+    max-width: 700px;
+    border: solid blue 3px;
+    margin-left: 23%;
+}
+label{
+    font-size: 1,2rem;
+}
+input{
+    height: 20px;
+    width: 170px;
+    border-radius: 8px;
+}
+#message{
+    position: absolute;
+    left: 660px;
+}
+textarea{
+    position: absolute;
+    left: 660px;
+    height: 130px;
+    width: 320px;
+    border-radius: 8px;
+}
+button{
+    margin-top: 60px;
+}
